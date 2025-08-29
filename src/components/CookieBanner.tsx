@@ -31,7 +31,7 @@ export function CookieBanner() {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
-          className="fixed bottom-4 left-4 right-4 z-50 md:left-8 md:right-8 lg:left-auto lg:max-w-md"
+          className="fixed top-4 left-4 right-4 z-50 md:left-8 md:right-8 lg:left-auto lg:max-w-md"
         >
           <Card className="shadow-large border-0">
             <CardContent className="p-4">
