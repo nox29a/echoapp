@@ -341,7 +341,7 @@ const NeuralNetworkBackground = () => {
       {/* Main content - responsywny */}
       <div className="relative z-10 px-4 sm:px-6 lg:px-8 mt-32 sm:mt-40 md:mt-48">
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 drop-shadow-2xl mb-4 sm:mb-6">
-          Echo
+          EchoTest
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 sm:mb-10 max-w-4xl mx-auto leading-relaxed">
           Twój codzienny towarzysz mindfulness
