@@ -81,7 +81,7 @@ export default function CoachingForm() {
     }
 
     try {
-      await fetch("https://nox29a.app.n8n.cloud/webhook-test/coaching-form", {
+      await fetch("https://nox29a.app.n8n.cloud/webhook/coaching-form", {
         method: "POST",
         body: formData,
       });
