@@ -174,7 +174,7 @@ const Chapter3Section = () => {
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Twój osobisty przewodnik w świecie mindfulness. 
-            <span className="text-cyan-300"> Każdy dzień staje się łatwiejszy, bardziej świadomy i mniej samotny.</span>
+            <span className="text-cyan-300"> Każdy dzień staje się łatwiejszy i bardziej świadomy.</span>
           </p>
         </div>
 
