@@ -1,0 +1,10 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any global styles here */
+body {
+  @apply bg-gray-900 text-gray-200 font-sans antialiased; /* Default background and text */
+  scroll-behavior: smooth; /* Optional: For smooth scrolling on anchor links */
+}
