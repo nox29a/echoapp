@@ -38,7 +38,7 @@ const EchoVoiceSection = () => {
       formData.append('timestamp', new Date().toISOString());
       formData.append('source', 'echo-ai-verification');
 
-      const response = await fetch('https://nox29a.app.n8n.cloud/webhook-test/a975ecce-4571-40be-b813-0ebe7bd294c6', {
+      const response = await fetch('https://nox29a.app.n8n.cloud/webhook/a975ecce-4571-40be-b813-0ebe7bd294c6', {
         method: 'POST',
         body: formData,
       });
@@ -267,7 +267,7 @@ const EchoVoiceSection = () => {
               
               {/* Komponent ElevenLabs - wyświetlany tylko po weryfikacji */}
               {isEmailVerified ? (
-                <div className="bg-black rounded-lg p-8 flex justify-center">
+                <div className="bg-black rounded-lg p-8 flex justify-center ">
                   <div className="elevenlabs-convai-container">
                     <elevenlabs-convai agent-id="agent_5501k3tx0sj4exe8xg5hx1vrwsqt"></elevenlabs-convai>
                   </div>
